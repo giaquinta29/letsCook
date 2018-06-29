@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3039229120DD2E5200FF6C01 /* FastFoodRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3039229020DD2E5200FF6C01 /* FastFoodRecipeViewController.swift */; };
+		3049868120DC62C8009E2CC3 /* ListRecipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3049868020DC62C8009E2CC3 /* ListRecipes.swift */; };
+		3049868320DC6924009E2CC3 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3049868220DC6924009E2CC3 /* Recipe.swift */; };
+		3049868520DC785B009E2CC3 /* ListRecipesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3049868420DC785B009E2CC3 /* ListRecipesTableViewCell.swift */; };
+		309FB5EF20CC4A630032EA57 /* my_profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 309FB5EE20CC4A630032EA57 /* my_profile.png */; };
+		309FB5F220CC4C630032EA57 /* news.png in Resources */ = {isa = PBXBuildFile; fileRef = 309FB5F120CC4C630032EA57 /* news.png */; };
+		309FB5F620CC51CB0032EA57 /* categories.png in Resources */ = {isa = PBXBuildFile; fileRef = 309FB5F520CC51CB0032EA57 /* categories.png */; };
+		309FB5F820CC59A10032EA57 /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309FB5F720CC59A10032EA57 /* CategoriesViewController.swift */; };
+		309FB5FB20CF35260032EA57 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 309FB5FA20CF35250032EA57 /* GoogleService-Info.plist */; };
+		30A19FFC20E323B50064ACC7 /* logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 30A19FFB20E323B50064ACC7 /* logo.jpeg */; };
+		30A19FFE20E343540064ACC7 /* FavouriteFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A19FFD20E343540064ACC7 /* FavouriteFoodViewController.swift */; };
+		30A1A00220E481370064ACC7 /* SIngUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A1A00120E481370064ACC7 /* SIngUpViewController.swift */; };
+		30A1A00620E48F750064ACC7 /* favourites.png in Resources */ = {isa = PBXBuildFile; fileRef = 30A1A00520E48F740064ACC7 /* favourites.png */; };
+		30A1A00820E5ABA40064ACC7 /* FavouriteFoodRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A1A00720E5ABA30064ACC7 /* FavouriteFoodRecipeViewController.swift */; };
+		30A1A00A20E5BD140064ACC7 /* trush.png in Resources */ = {isa = PBXBuildFile; fileRef = 30A1A00920E5BD130064ACC7 /* trush.png */; };
+		30A1FB3920DB217D00E4296D /* FastFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A1FB3820DB217D00E4296D /* FastFoodViewController.swift */; };
+		30A1FB3C20DB309300E4296D /* Recipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A1FB3B20DB309300E4296D /* Recipes.swift */; };
+		30A1FB3E20DB4E3400E4296D /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A1FB3D20DB4E3400E4296D /* NewsViewController.swift */; };
+		30C3106320E0439800E3180E /* NewsRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C3106220E0439700E3180E /* NewsRecipeViewController.swift */; };
+		30EA791A20CC2F4500095A57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EA791920CC2F4500095A57 /* AppDelegate.swift */; };
+		30EA791C20CC2F4500095A57 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EA791B20CC2F4500095A57 /* ProfileViewController.swift */; };
+		30EA791F20CC2F4500095A57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30EA791D20CC2F4500095A57 /* Main.storyboard */; };
+		30EA792420CC2F4800095A57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30EA792220CC2F4800095A57 /* LaunchScreen.storyboard */; };
+		E44FB69E39F241CAD182A270 /* Pods_queComemosHoy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D8D9781DFEE2F719008FD92 /* Pods_queComemosHoy.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D8D9781DFEE2F719008FD92 /* Pods_queComemosHoy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_queComemosHoy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3039229020DD2E5200FF6C01 /* FastFoodRecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastFoodRecipeViewController.swift; sourceTree = "<group>"; };
+		3049868020DC62C8009E2CC3 /* ListRecipes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRecipes.swift; sourceTree = "<group>"; };
+		3049868220DC6924009E2CC3 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		3049868420DC785B009E2CC3 /* ListRecipesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRecipesTableViewCell.swift; sourceTree = "<group>"; };
+		309FB5EE20CC4A630032EA57 /* my_profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = my_profile.png; sourceTree = "<group>"; };
+		309FB5F120CC4C630032EA57 /* news.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = news.png; sourceTree = "<group>"; };
+		309FB5F520CC51CB0032EA57 /* categories.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = categories.png; sourceTree = "<group>"; };
+		309FB5F720CC59A10032EA57 /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		309FB5FA20CF35250032EA57 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		30A19FF220E0A0600064ACC7 /* queComemosHoy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = queComemosHoy.entitlements; sourceTree = "<group>"; };
+		30A19FFB20E323B50064ACC7 /* logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpeg; sourceTree = "<group>"; };
+		30A19FFD20E343540064ACC7 /* FavouriteFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteFoodViewController.swift; sourceTree = "<group>"; };
+		30A1A00120E481370064ACC7 /* SIngUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIngUpViewController.swift; sourceTree = "<group>"; };
+		30A1A00520E48F740064ACC7 /* favourites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = favourites.png; sourceTree = "<group>"; };
+		30A1A00720E5ABA30064ACC7 /* FavouriteFoodRecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteFoodRecipeViewController.swift; sourceTree = "<group>"; };
+		30A1A00920E5BD130064ACC7 /* trush.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trush.png; sourceTree = "<group>"; };
+		30A1FB3820DB217D00E4296D /* FastFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastFoodViewController.swift; sourceTree = "<group>"; };
+		30A1FB3B20DB309300E4296D /* Recipes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipes.swift; sourceTree = "<group>"; };
+		30A1FB3D20DB4E3400E4296D /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		30C3106220E0439700E3180E /* NewsRecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsRecipeViewController.swift; sourceTree = "<group>"; };
+		30EA791620CC2F4500095A57 /* queComemosHoy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = queComemosHoy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30EA791920CC2F4500095A57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30EA791B20CC2F4500095A57 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		30EA791E20CC2F4500095A57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30EA792320CC2F4800095A57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30EA792520CC2F4800095A57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76A2C153E202F7270934BEFD /* Pods-queComemosHoy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-queComemosHoy.release.xcconfig"; path = "Pods/Target Support Files/Pods-queComemosHoy/Pods-queComemosHoy.release.xcconfig"; sourceTree = "<group>"; };
+		9C6D90967F76A8257E0A6FF9 /* Pods-queComemosHoy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-queComemosHoy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-queComemosHoy/Pods-queComemosHoy.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30EA791320CC2F4500095A57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E44FB69E39F241CAD182A270 /* Pods_queComemosHoy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		309FB5F020CC4B020032EA57 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				30A1A00920E5BD130064ACC7 /* trush.png */,
+				30A1A00520E48F740064ACC7 /* favourites.png */,
+				30A19FFB20E323B50064ACC7 /* logo.jpeg */,
+				309FB5F520CC51CB0032EA57 /* categories.png */,
+				309FB5F120CC4C630032EA57 /* news.png */,
+				309FB5EE20CC4A630032EA57 /* my_profile.png */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
+		309FB5F920CC59B20032EA57 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				30EA791B20CC2F4500095A57 /* ProfileViewController.swift */,
+				309FB5F720CC59A10032EA57 /* CategoriesViewController.swift */,
+				30A1FB3820DB217D00E4296D /* FastFoodViewController.swift */,
+				30A1FB3D20DB4E3400E4296D /* NewsViewController.swift */,
+				3049868420DC785B009E2CC3 /* ListRecipesTableViewCell.swift */,
+				3039229020DD2E5200FF6C01 /* FastFoodRecipeViewController.swift */,
+				30C3106220E0439700E3180E /* NewsRecipeViewController.swift */,
+				30A19FFD20E343540064ACC7 /* FavouriteFoodViewController.swift */,
+				30A1A00120E481370064ACC7 /* SIngUpViewController.swift */,
+				30A1A00720E5ABA30064ACC7 /* FavouriteFoodRecipeViewController.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		30A1FB3A20DB304200E4296D /* model */ = {
+			isa = PBXGroup;
+			children = (
+				30A1FB3B20DB309300E4296D /* Recipes.swift */,
+				3049868020DC62C8009E2CC3 /* ListRecipes.swift */,
+				3049868220DC6924009E2CC3 /* Recipe.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		30EA790D20CC2F4500095A57 = {
+			isa = PBXGroup;
+			children = (
+				30EA791820CC2F4500095A57 /* queComemosHoy */,
+				30EA791720CC2F4500095A57 /* Products */,
+				B779563ACDF386857D3CC453 /* Pods */,
+				BDB470FB8A8F0A1D20A3B430 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		30EA791720CC2F4500095A57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30EA791620CC2F4500095A57 /* queComemosHoy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30EA791820CC2F4500095A57 /* queComemosHoy */ = {
+			isa = PBXGroup;
+			children = (
+				30A19FF220E0A0600064ACC7 /* queComemosHoy.entitlements */,
+				30A1FB3A20DB304200E4296D /* model */,
+				309FB5F920CC59B20032EA57 /* views */,
+				309FB5F020CC4B020032EA57 /* icons */,
+				30EA791920CC2F4500095A57 /* AppDelegate.swift */,
+				30EA791D20CC2F4500095A57 /* Main.storyboard */,
+				30EA792220CC2F4800095A57 /* LaunchScreen.storyboard */,
+				309FB5FA20CF35250032EA57 /* GoogleService-Info.plist */,
+				30EA792520CC2F4800095A57 /* Info.plist */,
+			);
+			path = queComemosHoy;
+			sourceTree = "<group>";
+		};
+		B779563ACDF386857D3CC453 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C6D90967F76A8257E0A6FF9 /* Pods-queComemosHoy.debug.xcconfig */,
+				76A2C153E202F7270934BEFD /* Pods-queComemosHoy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BDB470FB8A8F0A1D20A3B430 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D8D9781DFEE2F719008FD92 /* Pods_queComemosHoy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30EA791520CC2F4500095A57 /* queComemosHoy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30EA792820CC2F4800095A57 /* Build configuration list for PBXNativeTarget "queComemosHoy" */;
+			buildPhases = (
+				5B39BDB5E553AE5D9B867FF9 /* [CP] Check Pods Manifest.lock */,
+				30EA791220CC2F4500095A57 /* Sources */,
+				30EA791320CC2F4500095A57 /* Frameworks */,
+				30EA791420CC2F4500095A57 /* Resources */,
+				63698770285EED6E3E1F07B5 /* [CP] Embed Pods Frameworks */,
+				61B979C9508E1C8D04EE929A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = queComemosHoy;
+			productName = queComemosHoy;
+			productReference = 30EA791620CC2F4500095A57 /* queComemosHoy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30EA790E20CC2F4500095A57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Gianni;
+				TargetAttributes = {
+					30EA791520CC2F4500095A57 = {
+						CreatedOnToolsVersion = 9.4;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 30EA791120CC2F4500095A57 /* Build configuration list for PBXProject "queComemosHoy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30EA790D20CC2F4500095A57;
+			productRefGroup = 30EA791720CC2F4500095A57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30EA791520CC2F4500095A57 /* queComemosHoy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30EA791420CC2F4500095A57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				309FB5F220CC4C630032EA57 /* news.png in Resources */,
+				30A1A00620E48F750064ACC7 /* favourites.png in Resources */,
+				30A19FFC20E323B50064ACC7 /* logo.jpeg in Resources */,
+				309FB5F620CC51CB0032EA57 /* categories.png in Resources */,
+				309FB5EF20CC4A630032EA57 /* my_profile.png in Resources */,
+				30EA792420CC2F4800095A57 /* LaunchScreen.storyboard in Resources */,
+				30EA791F20CC2F4500095A57 /* Main.storyboard in Resources */,
+				309FB5FB20CF35260032EA57 /* GoogleService-Info.plist in Resources */,
+				30A1A00A20E5BD140064ACC7 /* trush.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B39BDB5E553AE5D9B867FF9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-queComemosHoy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61B979C9508E1C8D04EE929A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-queComemosHoy/Pods-queComemosHoy-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-queComemosHoy/Pods-queComemosHoy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63698770285EED6E3E1F07B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-queComemosHoy/Pods-queComemosHoy-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-queComemosHoy/Pods-queComemosHoy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30EA791220CC2F4500095A57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30A1A00820E5ABA40064ACC7 /* FavouriteFoodRecipeViewController.swift in Sources */,
+				3049868520DC785B009E2CC3 /* ListRecipesTableViewCell.swift in Sources */,
+				30A1FB3C20DB309300E4296D /* Recipes.swift in Sources */,
+				3049868120DC62C8009E2CC3 /* ListRecipes.swift in Sources */,
+				30A1FB3920DB217D00E4296D /* FastFoodViewController.swift in Sources */,
+				30EA791C20CC2F4500095A57 /* ProfileViewController.swift in Sources */,
+				30A1FB3E20DB4E3400E4296D /* NewsViewController.swift in Sources */,
+				30C3106320E0439800E3180E /* NewsRecipeViewController.swift in Sources */,
+				3039229120DD2E5200FF6C01 /* FastFoodRecipeViewController.swift in Sources */,
+				30A19FFE20E343540064ACC7 /* FavouriteFoodViewController.swift in Sources */,
+				30EA791A20CC2F4500095A57 /* AppDelegate.swift in Sources */,
+				309FB5F820CC59A10032EA57 /* CategoriesViewController.swift in Sources */,
+				3049868320DC6924009E2CC3 /* Recipe.swift in Sources */,
+				30A1A00220E481370064ACC7 /* SIngUpViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		30EA791D20CC2F4500095A57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30EA791E20CC2F4500095A57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30EA792220CC2F4800095A57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30EA792320CC2F4800095A57 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30EA792620CC2F4800095A57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30EA792720CC2F4800095A57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30EA792920CC2F4800095A57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C6D90967F76A8257E0A6FF9 /* Pods-queComemosHoy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = queComemosHoy/queComemosHoy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74TBSRDN75;
+				INFOPLIST_FILE = queComemosHoy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Gianni.queComemosHoy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		30EA792A20CC2F4800095A57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76A2C153E202F7270934BEFD /* Pods-queComemosHoy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = queComemosHoy/queComemosHoy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74TBSRDN75;
+				INFOPLIST_FILE = queComemosHoy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Gianni.queComemosHoy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30EA791120CC2F4500095A57 /* Build configuration list for PBXProject "queComemosHoy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30EA792620CC2F4800095A57 /* Debug */,
+				30EA792720CC2F4800095A57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30EA792820CC2F4800095A57 /* Build configuration list for PBXNativeTarget "queComemosHoy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30EA792920CC2F4800095A57 /* Debug */,
+				30EA792A20CC2F4800095A57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30EA790E20CC2F4500095A57 /* Project object */;
+}

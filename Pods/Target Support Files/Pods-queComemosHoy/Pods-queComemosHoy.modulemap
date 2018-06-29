@@ -1,0 +1,6 @@
+framework module Pods_queComemosHoy {
+  umbrella header "Pods-queComemosHoy-umbrella.h"
+
+  export *
+  module * { export * }
+}
